@@ -12,7 +12,9 @@ public class ExeC {
 				"Enter the value " + i + " of list 1 : ");
 
 			
-		//hahah hahahhaha
+		for (int i=0; i<second.length; i++)
+			second[i] = keyboard.readInt(
+				"Enter the value " + i + " of list 2 : ");
 		
 		int lol = 0;
 		for (int i=0; i<first.length; i++) {
