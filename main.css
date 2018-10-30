@@ -3,6 +3,7 @@
 body {
   color: #FFF0CE;
   background-color: #83B4B3;
+
 }
 
 header {
@@ -10,7 +11,7 @@ header {
 }
 
 main article {
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
   padding: 0 1em;
 
 }
@@ -37,6 +38,7 @@ footer {
 a, a:hover, a:visited, a:link, a:active{
   text-decoration: none;
   color: #FFF0CE;
+  font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
 }
 /* Top of the page ------------------------------
 -------------------------------------------------*/
@@ -49,6 +51,9 @@ a, a:hover, a:visited, a:link, a:active{
   color: #D55534;
 }
 
+.homebutton a{
+font-family: 'Times New Roman',serif;
+}
 #menu_bar {
   display: flex;
   flex-direction: row;
@@ -56,6 +61,7 @@ a, a:hover, a:visited, a:link, a:active{
   margin: 0 0 0.5em 0;
   background-color: WHITE;
   color: #383838;
+  font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
 }
 
 #menu_bar h2 {
@@ -120,6 +126,7 @@ nav ul {
 	background-color: #E9CCC3;
 	width: 100%;
   color:#E9BAAC;
+  font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
 }
 
 #main_nav a, h2{
