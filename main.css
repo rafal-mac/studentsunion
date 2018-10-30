@@ -46,7 +46,7 @@ a, a:hover, a:visited, a:link, a:active{
   margin: 0;
   background-color: #097392;
   text-align: center;
-  color: #FFF0CE;
+  color: #D55534;
 }
 
 #menu_bar {
@@ -54,7 +54,8 @@ a, a:hover, a:visited, a:link, a:active{
   flex-direction: row;
   padding:1% 0 1% 5%;
   margin: 0 0 0.5em 0;
-  background-color: white;
+  background-color: WHITE;
+  color: #383838;
 }
 
 #menu_bar h2 {
@@ -81,6 +82,7 @@ nav ul {
   padding: 0.5em;
   border: 2px;
   border-style: solid;
+<<<<<<< HEAD
   border-color: #D55534;
   background-color: #D55534;
   border-radius: 7%;
@@ -109,6 +111,10 @@ nav ul {
 .e {
   grid-column: 2;
   grid-row: 2;
+=======
+  border-color: #E9BAAC;
+  background-color: #E9BAAC;
+>>>>>>> afbfefb3ca3b03dc951d57bbb32e0e2cc220049d
 }
 
 #main_nav {
@@ -116,10 +122,14 @@ nav ul {
 	position: absolute;
 	top: 4em;
 	left: 0;
-	background-color: #BC4639;
+	background-color: #E9CCC3;
 	width: 100%;
+  color:#097392;
 }
 
+#main_nav a{
+  color:#097392;
+}
 .with_nav #main_nav {
 	display: block;
 }
