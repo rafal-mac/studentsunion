@@ -17,7 +17,14 @@ main article {
 
 footer {
   text-align: center;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
+
+
 
 #wrapper {
   width: auto;
@@ -31,7 +38,8 @@ a, a:hover, a:visited, a:link, a:active{
   text-decoration: none;
   color: #F3E0DC;
 }
-
+/* Top of the page ------------------------------
+-------------------------------------------------*/
 .homebutton {
   padding: 0.5em 0 0.5em 0;
   width: 100%;
@@ -41,8 +49,21 @@ a, a:hover, a:visited, a:link, a:active{
   color: #F3E0DC;
 }
 
+#menu_bar {
+  display: flex;
+  flex-direction: row;
+  padding-left: 5%;
+  margin: 0 0 0.5em 0;
+  background-color: white;
+}
+
+#menu_bar h2 {
+  margin: auto;
+}
+
 /* Burger-menu ----------------------------------
 -------------------------------------------------*/
+
 .menu-title {
   text-align: center;
 }
@@ -83,9 +104,6 @@ nav ul {
 
 #access_nav {
 	display: block;
-	position: absolute;
-	top: 2%;
-	left: 5%;
 	width: 40px;
 	height: 0;
 	padding-top: 40px;
