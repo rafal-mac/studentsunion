@@ -36,7 +36,7 @@ footer {
 
 a, a:hover, a:visited, a:link, a:active{
   text-decoration: none;
-  color: #F3E0DC;
+  color: #FFF0CE;
 }
 /* Top of the page ------------------------------
 -------------------------------------------------*/
@@ -46,7 +46,7 @@ a, a:hover, a:visited, a:link, a:active{
   margin: 0;
   background-color: #097392;
   text-align: center;
-  color: #FFF0CE;
+  color: #D55534;
 }
 
 #menu_bar {
@@ -54,7 +54,8 @@ a, a:hover, a:visited, a:link, a:active{
   flex-direction: row;
   padding-left: 5%;
   margin: 0 0 0.5em 0;
-  background-color: white;
+  background-color: WHITE;
+  color: #383838;
 }
 
 #menu_bar h2 {
@@ -81,8 +82,8 @@ nav ul {
   padding: 0.5em;
   border: 2px;
   border-style: solid;
-  border-color: #D55534;
-  background-color: #D55534;
+  border-color: #83B4B3;
+  background-color: #83B4B3;
 }
 
 #main_nav {
