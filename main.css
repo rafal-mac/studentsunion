@@ -1,12 +1,8 @@
 /* Mobile-first styles -------------------------- */
-
+/* General tags --------------------------------- */
 body {
   color: #FFF0CE;
   background-color: #83B4B3;
-}
-
-header {
-
 }
 
 main article {
@@ -23,8 +19,6 @@ footer {
   left: 0;
   border-top: 2px solid #F3E0DC;
 }
-
-
 
 #wrapper {
   width: auto;
