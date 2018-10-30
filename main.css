@@ -129,6 +129,7 @@ nav ul {
 
 #main_nav a{
   color:#097392;
+  font-weight: bold;
 }
 .with_nav #main_nav {
 	display: block;
