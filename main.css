@@ -36,7 +36,7 @@ footer {
 
 a, a:hover, a:visited, a:link, a:active{
   text-decoration: none;
-  color: #FFF0CE;
+  color: #F3E0DC;
 }
 /* Top of the page ------------------------------
 -------------------------------------------------*/
@@ -82,8 +82,8 @@ nav ul {
   padding: 0.5em;
   border: 2px;
   border-style: solid;
-  border-color: #83B4B3;
-  background-color: #83B4B3;
+  border-color: #E9BAAC;
+  background-color: #E9BAAC;
 }
 
 #main_nav {
@@ -91,10 +91,14 @@ nav ul {
 	position: absolute;
 	top: 4em;
 	left: 0;
-	background-color: #BC4639;
+	background-color: #E9CCC3;
 	width: 100%;
+  color:#097392;
 }
 
+#main_nav a{
+  color:#097392;
+}
 .with_nav #main_nav {
 	display: block;
 }
