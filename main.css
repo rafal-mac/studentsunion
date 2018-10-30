@@ -36,7 +36,7 @@ footer {
 
 a, a:hover, a:visited, a:link, a:active{
   text-decoration: none;
-  color: #F3E0DC;
+  color: #FFF0CE;
 }
 /* Top of the page ------------------------------
 -------------------------------------------------*/
@@ -83,8 +83,8 @@ nav ul {
   border: 2px;
   border-style: solid;
 <<<<<<< HEAD
-  border-color: #D55534;
-  background-color: #D55534;
+  border-color: #E9BAAC;
+  background-color: #E9BAAC;
   border-radius: 7%;
 }
 
