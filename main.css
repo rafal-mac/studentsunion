@@ -88,7 +88,7 @@ nav ul {
 #main_nav {
   display: none;
 	position: absolute;
-	top: 0;
+	top: 4em;
 	left: 0;
 	background-color: #BC4639;
 	width: 100%;
