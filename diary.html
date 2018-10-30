@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Diary</title>
+  <link rel="stylesheet" type="text/css" href="normalize.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="icon" href="favicon.png">
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <h1 class="homebutton"><a href="homepage.html">Students' Union</a></h1>
+    </header>
+
+  <div id="menu_bar">
+      <a href="#main_nav" id="access_nav" class="access_aid">Skip to navigation</a>
+      <h2>Diary</h2>
+  </div>
+
+    <nav id="main_nav">
+      <h2 class="menu-title">Menu</h2>
+      <ul class="grid-menu">
+        <li class="grid-menu-item a"><a href="areas.html">Areas</a></li>
+        <li class="grid-menu-item b"><a href="food.html">Food</a></li>
+        <li class="grid-menu-item c"><a href="diary.html">Diary</a></li>
+        <li class="grid-menu-item d"><a href="contact.html">Contact</a></li>
+        <li class="grid-menu-item e"><a href="accessibility.html">Accessibility</a></li>
+      </ul>
+      <p><a href="#body" id="access_top" class="access_aid">Skip to top</a></p>
+    </nav>
+
+
+    <main>
+      <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+         Phasellus congue mollis purus, non condimentum
+        arcu posuere molestie. Vestibulum pharetra dolor varius arcu congue vulputate.
+      </article>
+    </main>
+
+    <footer>
+      <p>&copy; Julia & Rafal 2018</p>
+    </footer>
+  </div>
+</body>
+
+<script>
+  var nav = document.getElementById('access_nav'),
+  body = document.body;
+
+  nav.addEventListener('click', function(e) {
+    body.className = body.className? '' : 'with_nav';
+  e.preventDefault();
+});
+</script>
+
+</html>
