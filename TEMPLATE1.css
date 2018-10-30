@@ -1,8 +1,8 @@
 /* Mobile-first styles -------------------------- */
 
 body {
-  color: #FFF0CE;
-  background-color: #83B4B3;
+  color: WHITE;
+  background-color: #CF6766;
 }
 
 header {
@@ -29,16 +29,16 @@ footer {
 
 a, a:hover, a:visited, a:link, a:active{
   text-decoration: none;
-  color: #F3E0DC;
+  color: WHITE;
 }
 
 .homebutton {
   padding: 0.5em 0 0.5em 0;
   width: 100%;
   margin: 0;
-  background-color: #5C2018;
+  background-color: #30415D;
   text-align: center;
-  color: #F3E0DC;
+  color: WHITE;
 }
 
 /* Burger-menu ----------------------------------
@@ -60,8 +60,8 @@ nav ul {
   padding: 0.5em;
   border: 2px;
   border-style: solid;
-  border-color: #4285F4;
-  background-color: #4285F4;
+  border-color: #30415D;
+  background-color: #30415D;
 }
 
 #main_nav {
@@ -69,7 +69,7 @@ nav ul {
 	position: absolute;
 	top: 0;
 	left: 0;
-	background-color: #BC4639;
+	background-color: #8EAEBD;
 	width: 100%;
 }
 
