@@ -39,7 +39,7 @@ main {
 
 /* General tags --------------------------------- */
 body {
-  color: #FFF0CE;
+  color: #000033;
   background-color: #83B4B3;
 }
 
@@ -95,14 +95,20 @@ ul {
   display: flex;
   flex-direction: row;
   padding:1% 0 1% 5%;
+<<<<<<< HEAD
+  margin: 0 0 0.5em 0;
+  background-color: #FFF0CE;
+=======
   margin: 0 0 2.22% 0;
   background-color: WHITE;
+>>>>>>> f189fcbbb227ed7e152df4864c263ca440514223
   color: #383838;
   font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
 }
 
 #menu_bar h2 {
   margin: auto;
+  text-align: center;
 }
 
 /* Burger-menu ----------------------------------
