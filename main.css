@@ -1,7 +1,7 @@
 /* Mobile-first styles -------------------------- */
 /* General tags --------------------------------- */
 body {
-  color: #FFF0CE;
+  color: #000033;
   background-color: #83B4B3;
 
 }
@@ -53,13 +53,14 @@ font-family: 'Times New Roman',serif;
   flex-direction: row;
   padding:1% 0 1% 5%;
   margin: 0 0 0.5em 0;
-  background-color: WHITE;
+  background-color: #FFF0CE;
   color: #383838;
   font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
 }
 
 #menu_bar h2 {
   margin: auto;
+  text-align: center;
 }
 
 /* Burger-menu ----------------------------------
