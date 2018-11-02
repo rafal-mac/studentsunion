@@ -5,16 +5,18 @@
 /* Divide website into areas */
 #wrapper {
   grid-template-columns: 20% auto;
-  grid-row-gap: 2em;
+  grid-row-gap: 1em;
   grid-template-areas:
     "header header"
     "main_nav content"
 }
 
-
-
 /* Top of the page ----------------------*/
 /* Navigation embeded into top of the page, next to logo */
+header{
+height:4em;
+}
+
 #menu_bar {
   display: none;
 }
@@ -28,8 +30,12 @@
 #main_nav {
   display: block;
   position: relative;
-  height: 4.4em;
+<<<<<<< HEAD
+  height: auto;
+  background-color: #83B4B3 ;
+=======
   background-color: #097392 ;
+>>>>>>> 262242d0a21d5d20cbf57762d54c0eede5dde6c0
 }
 
 .grid-menu {
@@ -46,7 +52,6 @@ nav ul {
 }
 
 nav ul button {
-  flex-grow: 1;
   margin: 0.6%;
 }
 
