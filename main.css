@@ -29,6 +29,8 @@ main {
   grid-area: content;
 }
 
+
+
 #wrapper {
   grid-template-columns: auto;
   grid-template-areas:
