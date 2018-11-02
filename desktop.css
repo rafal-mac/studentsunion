@@ -9,53 +9,61 @@
   grid-template-areas:
     "header header"
     "main_nav content"
+    "footer footer"
+}
+/* General tags -------------------------*/
+header {
+height:4em;
 }
 
 /* Top of the page ----------------------*/
 /* Navigation embeded into top of the page, next to logo */
-header{
-height:4em;
-}
-
-#menu_bar {
-  display: none;
-}
-
 .homebutton {
   padding: 0;
   float: left;
   height:100%
 }
 
+#menu_bar {
+  display: none;
+}
+/* Content ------------------------------------
+---------------------------------------------*/
+
+img, figcaption {
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+/* Burger menu ------------------------ */
 #main_nav {
   display: block;
   position: relative;
-<<<<<<< HEAD
-<<<<<<< HEAD
-  height: auto;
   background-color: #83B4B3 ;
-=======
-=======
->>>>>>> d791febac290be05bba237a4899e766110bd5941
-  background-color: #097392 ;
->>>>>>> 262242d0a21d5d20cbf57762d54c0eede5dde6c0
+
 }
 
 .grid-menu {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  width: 100%;
-  margin: auto;
-
 }
+
+.grid-menu-item {
+  background-color: #097392;
+  border-color: #097392;
+  border-radius: 0;
+}
+
 nav ul {
   padding-inline-start: 0;
   padding-inline-end: 0;
 }
 
 nav ul button {
-  margin: 0.6%;
+  color: #FFF0CE;
+  font-weight: bold;
+  font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
 }
 
 .menu-title {
