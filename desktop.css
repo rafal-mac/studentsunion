@@ -2,6 +2,7 @@
 ------------------------------------------- */
 @media only screen and (min-width: 768px) {
 /* Page content arragement---------------*/
+/* Divide website into areas */
 #wrapper {
   grid-template-columns: 20% auto;
   grid-row-gap: 2em;
@@ -13,7 +14,7 @@
 
 
 /* Top of the page ----------------------*/
-
+/* Navigation embeded into top of the page, next to logo */
 #menu_bar {
   display: none;
 }

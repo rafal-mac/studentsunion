@@ -13,17 +13,21 @@
 
 <body>
   <div id="wrapper">
+
+    <!-- Logo -->
     <header>
       <button class="homebutton" type="button" onclick='location.href="homepage.html"'><span>Student's Union</span></button>
     </header>
 
   <div id="blank"></div>
-  
+
+  <--! Burger icon and Subpage title -->
   <div id="menu_bar">
       <a href="#main_nav" id="access_nav" class="access_aid">Skip to navigation</a>
       <h2>Main menu</h2>
   </div>
 
+    <!-- Navigation buttons -->
     <nav id="main_nav">
       <h2 class="menu-title">Menu</h2>
       <ul class="grid-menu">
@@ -36,7 +40,7 @@
       <p><a href="#body" id="access_top" class="access_aid">Skip to top</a></p>
     </nav>
 
-
+    <!-- Content -->
     <main>
       <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
          Phasellus congue mollis purus, non condimentum
@@ -50,14 +54,17 @@
   </div>
 </body>
 
-<script>
-  var nav = document.getElementById('access_nav'),
-  body = document.body;
+  <!-- When "skip to navigation" is clicked, script adds
+  class attribute "with_nav" to the body and prevents destination of
+  the link to be followed.-->
+  <script>
+    var nav = document.getElementById('access_nav'),
+    body = document.body;
 
-  nav.addEventListener('click', function(e) {
-    body.className = body.className? '' : 'with_nav';
-  e.preventDefault();
-});
-</script>
+    nav.addEventListener('click', function(e) {
+      body.className = body.className? '' : 'with_nav';
+    e.preventDefault();
+  });
+  </script>
 
 </html>

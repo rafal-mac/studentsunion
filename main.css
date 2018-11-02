@@ -1,5 +1,6 @@
 /* Mobile-first styles -------------------------- */
 /* Page content arragement ---------------------- */
+/* Divide website into areas */
 #wrapper {
   width: auto;
   margin: 0 auto;
@@ -106,7 +107,7 @@ ul {
 
 /* Burger-menu ----------------------------------
 -------------------------------------------------*/
-
+/* Navigation hidden until user clicks on "burger icon" */
 .menu-title {
   text-align: center;
 }
