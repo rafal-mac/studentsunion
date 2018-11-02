@@ -7,8 +7,8 @@
   grid-template-columns: 20% auto;
   grid-row-gap: 2em;
   grid-template-areas:
-    "header main_nav"
-    "content content"
+    "header header"
+    "main_nav content"
 }
 
 
@@ -34,7 +34,7 @@
 
 .grid-menu {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   width: 100%;
   margin: auto;
