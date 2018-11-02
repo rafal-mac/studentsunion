@@ -2,17 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="author" content="Julia Derebecka & Rafal Maciejewski">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Contact</title>
   <link rel="stylesheet" type="text/css" href="normalize.css">
   <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" type="text/css" href="desktop.css">
   <link rel="icon" href="favicon.png">
 </head>
 
 <body>
   <div id="wrapper">
     <header>
-      <h1 class="homebutton"><a href="homepage.html">Students' Union</a></h1>
+      <button class="homebutton" type="button" onclick='location.href="homepage.html"'><span>Student's Union</span></button>
     </header>
 
   <div id="menu_bar">
@@ -20,17 +22,17 @@
       <h2>Contact</h2>
   </div>
 
-    <nav id="main_nav">
-      <h2 class="menu-title">Menu</h2>
-      <ul class="grid-menu">
-        <li class="grid-menu-item a"><a href="areas.html">Areas</a></li>
-        <li class="grid-menu-item b"><a href="food.html">Food</a></li>
-        <li class="grid-menu-item c"><a href="diary.html">Diary</a></li>
-        <li class="grid-menu-item d"><a href="contact.html">Contact</a></li>
-        <li class="grid-menu-item e"><a href="accessibility.html">Accessibility</a></li>
-      </ul>
-      <p><a href="#body" id="access_top" class="access_aid">Skip to top</a></p>
-    </nav>
+  <nav id="main_nav">
+    <h2 class="menu-title">Menu</h2>
+    <ul class="grid-menu">
+      <button type="button" onclick='location.href="areas.html"'><li class="grid-menu-item a">Area</li></button>
+      <button type="button" onclick='location.href="typical_week.html"'><li class="grid-menu-item b">Typical Week</li></button>
+      <button type="button" onclick='location.href="food.html"'><li class="grid-menu-item c">Food</li></button>
+      <button type="button" onclick='location.href="contact.html"'><li class="grid-menu-item d">Contact</li></button>
+      <button type="button" onclick='location.href="accessibility.html"'><li class="grid-menu-item e">Accessibility</li></button>
+    </ul>
+    <p><a href="#body" id="access_top" class="access_aid">Skip to top</a></p>
+  </nav>
 
 
     <main>
@@ -38,6 +40,21 @@
          Phasellus congue mollis purus, non condimentum
         arcu posuere molestie. Vestibulum pharetra dolor varius arcu congue vulputate.
       </article>
+
+      <form action="mailto:gristompgambling@gmail.com" method="post" enctype="text/plain">
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="firstname" placeholder="Your name...">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+        <label for="email">Your Email</label>
+        <input type="text" id="email" name="email" placeholder="Your email address..."
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" placeholder="Write something.."></textarea>
+        <input type="submit" value="Submit">
+      </form>
     </main>
 
     <footer>
