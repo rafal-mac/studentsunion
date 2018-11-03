@@ -20,7 +20,6 @@ height:4em;
 /* Navigation embeded into top of the page, next to logo */
 .homebutton {
   padding: 0;
-  float: left;
   height:100%
 }
 

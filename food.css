@@ -1,0 +1,33 @@
+/* CSS for subpage with all things food ----------*/
+#food_list  {
+  display: grid;
+  grid-template-columns: auto;
+  margin: auto;
+  background-color: #83B4B3;
+}
+
+/*img properites --------------------------
+-------------------------------------------*/
+.img img {
+  padding-bottom: 5%;
+}
+/* Text properties -------------------------
+--------------------------------------------*/
+.text {
+  padding: 0 1em 0 1em;
+  border-style: solid;
+  border-width: 2px 2px 0 2px;
+  border-color: #097392;
+  border-radius: 5px 5px 0 0;
+  background-color: #99ccca;
+}
+
+.text h2 {
+  color:#097392;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.text p {
+      font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
+}

@@ -1,0 +1,111 @@
+/* Desktop properties for food.html --------*/
+@media only screen and (min-width: 768px) {
+#food_list  {
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  grid-row-gap: 1em;
+  margin: auto;
+}
+
+.coffee_revolution  {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.coffee_revolution_img {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.bar_one {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.bar_one_img {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.interval {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.interval_img {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.new_leaf {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.new_leaf_img {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.proper_pasty {
+  grid-column: 1;
+  grid-row: 5;
+}
+
+.proper_pasty_img {
+  grid-column: 2;
+  grid-row: 5;
+}
+
+.pearls {
+  grid-column: 1;
+  grid-row: 6;
+}
+
+.pearls_img {
+  grid-column: 2;
+  grid-row: 6;
+}
+
+.the_view_deli {
+  grid-column: 1;
+  grid-row: 7;
+}
+
+.the_view_deli_img {
+  grid-column: 2;
+  grid-row: 7;
+}
+
+.grill_n_go {
+  grid-column: 1;
+  grid-row: 8;
+}
+
+.grill_n_go_img {
+  grid-column: 2;
+  grid-row: 8;
+}
+
+.inox {
+  grid-column: 1;
+  grid-row: 9;
+}
+
+.inox_img {
+  grid-column: 2;
+  grid-row: 9;
+}
+
+/*img properites --------------------------
+-------------------------------------------*/
+.img img {
+  padding-bottom: 0;
+}
+
+/* Text properties -------------------------
+--------------------------------------------*/
+.text {
+  border-width: 2px;
+  border-radius: 2px;
+}
