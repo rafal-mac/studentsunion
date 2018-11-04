@@ -5,9 +5,10 @@
   <meta name="author" content="Julia Derebecka & Rafal Maciejewski">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Contact</title>
-  <link rel="stylesheet" type="text/css" href="normalize.css">
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <link rel="stylesheet" type="text/css" href="desktop.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/desktop.css">
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
   <link rel="icon" href="images/favicon.png">
 </head>
 
@@ -36,25 +37,32 @@
 
 
     <main>
-      <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-         Phasellus congue mollis purus, non condimentum
-        arcu posuere molestie. Vestibulum pharetra dolor varius arcu congue vulputate.
-      </article>
+      <p class="get-in-touch">GET IN TOUCH</p>
 
-      <form action="mailto:gristompgambling@gmail.com" method="post" enctype="text/plain">
-        <label for="firstname">First Name</label>
-        <input type="text" id="firstname" name="firstname" placeholder="Your name...">
+      <img class="mail-img" src="images/mail.png" alt="Mail">
+      <p class="mail">wpisz_swoj@mail_julia.com<br>
+        rmaciejewski1@sheffield.ac.uk</p>
 
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+      <img class="phone-img" src="images/phone.png" alt="Phone">
+      <p class="phone">wpisz_numer000000<br>
+        07545133154</p>
 
-        <label for="email">Your Email</label>
-        <input type="text" id="email" name="email" placeholder="Your email address..."
+      <div class="container">
+        <form action="mailto:rmaciejewski1@sheffield.ac.uk" method="post" enctype="text/plain">
+          <label for="firstname">First Name</label>
+          <input type="text" id="firstname" name="firstname" placeholder="Your name...">
 
-        <label for="message">Your Message</label>
-        <textarea id="message" name="message" placeholder="Write something.."></textarea>
-        <input type="submit" value="Submit">
-      </form>
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+
+          <label for="email">Your Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email address..."
+
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" placeholder="Write something.."></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
     </main>
 
     <footer>

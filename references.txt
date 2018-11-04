@@ -4,3 +4,4 @@ contact form: https://www.w3schools.com/howto/howto_css_contact_form.asp
 breakpoints: https://responsivedesign.is/strategy/page-layout/defining-breakpoints/
 grid: https://gridbyexample.com/examples/example13/
 history of the building: https://en.wikipedia.org/wiki/University_of_Sheffield_Students%27_Union
+contact icon: https://material.io/tools/icons/?style=baseline
