@@ -42,7 +42,7 @@ html {
 
 body {
   color: #000033;
-  background-color: #83B4B3;
+  background-color: #99ccca;
   position: relative;
   margin: 0;
   padding-bottom: 6rem;
@@ -50,9 +50,10 @@ body {
 }
 
 main {
-  background-color: #99ccca;
+  background-color: #b3e2e1;
+  border-radius: 4px;
   width: 80%;
-  margin:auto;
+  margin: auto;
 }
 
 footer {

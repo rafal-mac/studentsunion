@@ -1,0 +1,12 @@
+/*CSS for Accessibility subpage ---------------------*/
+.contact-us {
+  text-shadow:
+  -1px -1px 0 #097392,
+  1px -1px 0 #097392,
+  -1px 1px 0 #097392,
+  1px 1px 0 #097392;
+}
+
+main article {
+  text-indent: 0;
+}
