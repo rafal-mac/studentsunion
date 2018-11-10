@@ -5,10 +5,10 @@
   <meta name="author" content="Julia Derebecka & Rafal Maciejewski">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Students' Union</title>
-  <link rel="stylesheet" type="text/css" href="normalize.css">
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <link rel="stylesheet" type="text/css" href="desktop.css">
-  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/desktop.css">
+  <link rel="icon" href="images/favicon.png">
 </head>
 
 <body>
@@ -16,10 +16,8 @@
 
     <!-- Logo -->
     <header>
-      <button class="homebutton" type="button" onclick='location.href="homepage.html"'><span>Student's Union</span></button>
+      <button class="homebutton" type="button" onclick='location.href="homepage.html"'><span>Students' Union</span></button>
     </header>
-
-  <div id="blank"></div>
 
   <!-- Burger icon and Subpage title -->
   <div id="menu_bar">
@@ -31,7 +29,7 @@
     <nav id="main_nav">
       <h2 class="menu-title">Menu</h2>
       <ul class="grid-menu">
-        <button type="button" onclick='location.href="areas.html"'><li class="grid-menu-item a">Area</li></button>
+        <button type="button" onclick='location.href="areas.html"'><li class="grid-menu-item a">Areas</li></button>
         <button type="button" onclick='location.href="typical_week.html"'><li class="grid-menu-item b">Typical Week</li></button>
         <button type="button" onclick='location.href="food.html"'><li class="grid-menu-item c">Food</li></button>
         <button type="button" onclick='location.href="contact.html"'><li class="grid-menu-item d">Contact</li></button>
@@ -42,28 +40,32 @@
 
     <!-- Content -->
     <main>
-      <figure>
-        <img scr="students_union_building.jpg" alt="Students' Union Building" width="100">
-        <figcaption>&copy; Rafal Maciejewski</figcfigcaption>
-      </figure>
-      <article>  Welcome to Students' Union Building!
-        The website you are looking at is a student guide to this excellent piece of architecture.
-      Before we dive into all the details, let's get to know some of its history.
-
+        <h2 class="title">Welcome to Students' Union!</h2>
+        <img src="images/students_union_building.jpg" alt="Students' Union Building">
+        <figcaption>&copy; Rafal & Julia</figcaption>
+      <article>
+        <p>
+        The website you are looking at is a student guide to this excellent piece of architecture,
+      but before we dive into all the details, let's get to know some of its history:
+        </p>
+        <p>
         Back in the old days, students could use rooms in the University's building now called "Firth Court".
       They were, along with two buildings bought by the University in 1928, the only places
-      students had available for free-time activities.
-        That changed in 1936, when the great J. B. Graves funded, what is now called, "the Graves building".
+      students had available for free-time activities. That changed in 1936,
+      when the great J. B. Graves funded, what is now called, "the Graves building".
+        <p>
         The University of Sheffield population grew every year. In fact it grew so fast, that in
       1961 a new building was linked to the Graves Hall, which now is the core of Students' Union Building.
         A further expansion happened in 1978 with subsequent renovations taking place until 1993,
       when a new building, designed by Mott Architecture, came into existence.
-
+        </p>
+        <p>
         Students' Union Building is a fantastic place where one can not only eat in one of many restaurants,
       hang out and rest in a communal area, but also seek help in SSiD or get help finding a job in Careers Service.
       It's a truly a place containing everything a student could need. We hope our website will prove
       to be at least a little helpful in getting the most out of this great building.
-      </article>
+        </p>
+    </article>
     </main>
 
     <footer>

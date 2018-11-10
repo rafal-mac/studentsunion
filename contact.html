@@ -5,16 +5,17 @@
   <meta name="author" content="Julia Derebecka & Rafal Maciejewski">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Contact</title>
-  <link rel="stylesheet" type="text/css" href="normalize.css">
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <link rel="stylesheet" type="text/css" href="desktop.css">
-  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/desktop.css">
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
+  <link rel="icon" href="images/favicon.png">
 </head>
 
 <body>
   <div id="wrapper">
     <header>
-      <button class="homebutton" type="button" onclick='location.href="homepage.html"'><span>Student's Union</span></button>
+      <button class="homebutton" type="button" onclick='location.href="homepage.html"'><span>Students' Union</span></button>
     </header>
 
   <div id="menu_bar">
@@ -25,7 +26,7 @@
   <nav id="main_nav">
     <h2 class="menu-title">Menu</h2>
     <ul class="grid-menu">
-      <button type="button" onclick='location.href="areas.html"'><li class="grid-menu-item a">Area</li></button>
+      <button type="button" onclick='location.href="areas.html"'><li class="grid-menu-item a">Areas</li></button>
       <button type="button" onclick='location.href="typical_week.html"'><li class="grid-menu-item b">Typical Week</li></button>
       <button type="button" onclick='location.href="food.html"'><li class="grid-menu-item c">Food</li></button>
       <button type="button" onclick='location.href="contact.html"'><li class="grid-menu-item d">Contact</li></button>
@@ -36,25 +37,38 @@
 
 
     <main>
-      <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-         Phasellus congue mollis purus, non condimentum
-        arcu posuere molestie. Vestibulum pharetra dolor varius arcu congue vulputate.
-      </article>
+      <p class="get-in-touch">GET IN TOUCH</p>
 
-      <form action="mailto:gristompgambling@gmail.com" method="post" enctype="text/plain">
-        <label for="firstname">First Name</label>
-        <input type="text" id="firstname" name="firstname" placeholder="Your name...">
+      <img class="mail-img" src="images/mail.png" alt="Mail">
+      <p class="mail">wpisz_swoj@mail_julia.com<br>
+        rmaciejewski1@sheffield.ac.uk</p>
 
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+      <img class="phone-img" src="images/phone.png" alt="Phone">
+      <p class="phone">wpisz_numer000000<br>
+        07545133154</p>
 
-        <label for="email">Your Email</label>
-        <input type="text" id="email" name="email" placeholder="Your email address..."
+      <div class="container">
+        <form name="myform" action="http://www.dcs.shef.ac.uk/cgi-intranet/public/FormMail.pl" method="get">
+          <input type="hidden" name="recipient" value="rmaciejewski1@sheffield.ac.uk">
 
-        <label for="message">Your Message</label>
-        <textarea id="message" name="message" placeholder="Write something.."></textarea>
-        <input type="submit" value="Submit">
-      </form>
+          <label for="firstname">First Name</label>
+          <input type="text" id="firstname" name="First name"
+            placeholder="Your name..." maxlength="40" size="20" required>
+
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="Last name"
+            placeholder="Your last name..." maxlength="40" size="20" required>
+
+          <label for="email">Your Email</label>
+          <input type="email" id="email" name="email"
+            placeholder="Your email address..." maxlength="40" size="20" required>
+
+          <label for="message">Your Message</label>
+          <textarea id="message" name="Message" placeholder="Write something.."></textarea>
+
+          <input type="submit" name="Submit" id="submit" value="Submit">
+        </form>
+      </div>
     </main>
 
     <footer>

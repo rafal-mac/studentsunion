@@ -6,11 +6,12 @@
   margin: 0 auto;
   border: none;
   display: grid;
+  grid-template-columns: auto;
   grid-template-areas:
     "header"
     "menu_bar"
-    "main_nav"
     "content"
+    "footer"
 }
 
 header {
@@ -29,40 +30,56 @@ main {
   grid-area: content;
 }
 
-
-
-#wrapper {
-  grid-template-columns: auto;
-  grid-template-areas:
-    "header"
-    "menu_bar"
-    "content"
+footer {
+  grid-area: footer;
 }
 
 /* General tags --------------------------------- */
-body {
-  color: #000033;
-  background-color: powderblue;
+html {
+  height: 100%;
+  box-sizing: border-box;
 }
 
-main article {
-  font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
-  padding: 0 4.44%;
+body {
+  color: #000033;
+<<<<<<< HEAD:main.css
+  background-color: powderblue;
+=======
+  background-color: #99ccca;
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+>>>>>>> 12d9fbb2faaf04f9b433b9f8178293ad0e419343:css/main.css
+}
 
+main {
+  background-color: #d2efef;
+  border-radius: 4px;
+  width: 80%;
+  margin: auto;
 }
 
 footer {
+<<<<<<< HEAD:main.css
   text-align: center;
   position: bottom;
+=======
+  position: absolute;
+>>>>>>> 12d9fbb2faaf04f9b433b9f8178293ad0e419343:css/main.css
   right: 0;
   bottom: 0;
   left: 0;
   border-top: 2px solid #F3E0DC;
+  background-color: #097392;
+  color: #FFF0CE;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5%;
 }
 
 a, a:hover, a:visited, a:link, a:active{
   text-decoration: none;
-  color: #FFF0CE;
   font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
 }
 
@@ -78,11 +95,11 @@ ul {
 .homebutton {
   padding: 4.44% 0 4.44% 0;
   width: 100%;
+  height: 80px;
   margin: 0;
   border: 0;
   background-color: #097392;
   text-align: center;
-  color: #D55534;
 }
 
 .homebutton span{
@@ -90,27 +107,51 @@ ul {
   font-size: 2.2em;
   color: #FFF0CE;
   font-weight: bold;
-
 }
 
 #menu_bar {
   display: flex;
   flex-direction: row;
   padding:1% 0 1% 5%;
-<<<<<<< HEAD
-  margin: 0 0 0.5em 0;
-  background-color: #FFF0CE;
-=======
   margin: 0 0 2.22% 0;
+  background-color: #FFF0CE;
   background-color: WHITE;
->>>>>>> f189fcbbb227ed7e152df4864c263ca440514223
-  color: #383838;
   font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
 }
 
 #menu_bar h2 {
+  color: #097392;
   margin: auto;
   text-align: center;
+}
+
+/* Content --------------------------------------
+-------------------------------------------------*/
+main article {
+  width: 80%;
+  margin: auto;
+  font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
+  color: #055a72;
+  text-indent: 1em;
+  padding: 2%;
+}
+
+
+.title {
+  text-align: center;
+  color:#097392;
+  font-weight: bold;
+  padding: 0 5%;
+}
+
+img, figcaption {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+img {
+     border-top: 5px solid #097392;
 }
 
 /* Burger-menu ----------------------------------
@@ -175,7 +216,7 @@ nav ul button {
 #main_nav {
   display: none;
 	position: absolute;
-	top: 8.618103448275862%;
+	top: 80px;
 	left: 0;
 	background-color: #E9CCC3;
 	width: 100%;
@@ -183,7 +224,7 @@ nav ul button {
   font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
 }
 
-#main_nav a, h2{
+#main_nav a, #main_nav h2{
   color:#097392;
   font-weight: bold;
   white-space: nowrap;
