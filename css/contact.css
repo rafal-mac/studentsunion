@@ -19,13 +19,13 @@
 
 /* Email contact form ---------------------------------
 -------------------------------------------------------*/
-input[type=text], select, textarea {
+input[type=text], input[type=email], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-    margin-top: 6px;
+    margin: 6px 0 6px 0;
     resize: vertical;
 }
 
@@ -41,7 +41,7 @@ input[type=submit] {
 /* Add a background color and some padding around the form */
 .container {
     border-radius: 5px;
-    background-color: #83B4B3;
+    background-color: #99ccca;
     padding: 20px;
     margin: 0 5% 5% 5%;
 }

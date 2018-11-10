@@ -48,19 +48,25 @@
         07545133154</p>
 
       <div class="container">
-        <form action="mailto:rmaciejewski1@sheffield.ac.uk" method="post" enctype="text/plain">
+        <form name="myform" action="http://www.dcs.shef.ac.uk/cgi-intranet/public/FormMail.pl" method="get">
+          <input type="hidden" name="recipient" value="rmaciejewski1@sheffield.ac.uk">
+
           <label for="firstname">First Name</label>
-          <input type="text" id="firstname" name="firstname" placeholder="Your name...">
+          <input type="text" id="firstname" name="First name"
+            placeholder="Your name..." maxlength="40" size="20" required>
 
           <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+          <input type="text" id="lname" name="Last name"
+            placeholder="Your last name..." maxlength="40" size="20" required>
 
           <label for="email">Your Email</label>
-          <input type="text" id="email" name="email" placeholder="Your email address..."
+          <input type="email" id="email" name="email"
+            placeholder="Your email address..." maxlength="40" size="20" required>
 
           <label for="message">Your Message</label>
-          <textarea id="message" name="message" placeholder="Write something.."></textarea>
-          <input type="submit" value="Submit">
+          <textarea id="message" name="Message" placeholder="Write something.."></textarea>
+
+          <input type="submit" name="Submit" id="submit" value="Submit">
         </form>
       </div>
     </main>

@@ -1,12 +1,4 @@
 /*CSS for Accessibility subpage ---------------------*/
-.contact-us {
-  text-shadow:
-  -0.4px -0.4px 0 #097392,
-  0.4px -0.4px 0 #097392,
-  -0.4px 0.4px 0 #097392,
-  0.4px 0.4px 0 #097392;
-}
-
 main article {
   text-indent: 0;
 }

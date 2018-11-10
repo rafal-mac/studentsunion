@@ -50,7 +50,7 @@ body {
 }
 
 main {
-  background-color: #b3e2e1;
+  background-color: #d2efef;
   border-radius: 4px;
   width: 80%;
   margin: auto;
@@ -111,6 +111,7 @@ ul {
 }
 
 #menu_bar h2 {
+  color: #097392;
   margin: auto;
   text-align: center;
 }
