@@ -1,0 +1,27 @@
+/* CSS properties for subpage "Areas" ------------------------ */
+
+/* Opening times table --------------------------------------- */
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 2% auto auto auto;
+}
+
+th, td {
+  padding: 5%;
+  text-align: center;
+  border-bottom: 1px solid #b2b2b2;
+  white-space: nowrap;
+}
+
+tr:hover {
+  background-color: #c0dbdb;
+}
+
+.opening-times {
+  text-align: center;
+  color: #097392;
+  font-weight: bold;
+  font-size: larger;
+}
