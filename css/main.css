@@ -42,15 +42,11 @@ html {
 
 body {
   color: #000033;
-<<<<<<< HEAD:main.css
   background-color: powderblue;
-=======
-  background-color: #99ccca;
   position: relative;
   margin: 0;
   padding-bottom: 6rem;
   min-height: 100%;
->>>>>>> 12d9fbb2faaf04f9b433b9f8178293ad0e419343:css/main.css
 }
 
 main {
@@ -61,12 +57,8 @@ main {
 }
 
 footer {
-<<<<<<< HEAD:main.css
   text-align: center;
-  position: bottom;
-=======
   position: absolute;
->>>>>>> 12d9fbb2faaf04f9b433b9f8178293ad0e419343:css/main.css
   right: 0;
   bottom: 0;
   left: 0;
