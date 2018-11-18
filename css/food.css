@@ -3,7 +3,6 @@
   display: grid;
   grid-template-columns: auto;
   margin: auto;
-  background-color: #99ccca;
 }
 
 /*img properites --------------------------
@@ -135,6 +134,7 @@
 -------------------------------------------*/
 .img img {
   padding-bottom: 0;
+  width: 90%;
 }
 
 /* Text properties -------------------------
