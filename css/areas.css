@@ -25,3 +25,129 @@ tr:hover {
   font-weight: bold;
   font-size: larger;
 }
+/* CSS for areas ----------*/
+#areas_list  {
+  display: grid;
+  grid-template-columns: auto;
+  margin: auto;
+  background-color: #99ccca;
+}
+
+/*img properites --------------------------
+-------------------------------------------*/
+.img img {
+  padding-bottom: 5%;
+}
+/* Text properties -------------------------
+--------------------------------------------*/
+.text {
+  padding: 0 1em 0 1em;
+  border-style: solid;
+  border-width: 2px 2px 0 2px;
+  border-color: #097392;
+  border-radius: 5px 5px 0 0;
+  background-color: #cbefee;
+}
+
+.text h2 {
+  color:#097392;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.text p {
+      font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
+}
+.text li {
+      font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
+}
+
+/* Desktop properties for food.html --------*/
+@media only screen and (min-width: 768px) {
+#areas_list  {
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  grid-row-gap: 1em;
+  margin: auto;
+}
+
+.welcome_desk  {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.coffee_revolution_img {
+  grid-column: 2;
+  grid-row: 1;
+}
+.box_office {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.box_office_img {
+  grid-column: 1;
+  grid-row: 2;
+}
+.advice_centre {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.advice_centre_img {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.job_shop {
+  grid-column: 2;
+  grid-row: 4;
+}
+
+.job_shop_img {
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.proper_pasty {
+  grid-column: 1;
+  grid-row: 5;
+}
+
+.proper_pasty_img {
+  grid-column: 2;
+  grid-row: 5;
+}
+
+.shops {
+  grid-column: 2;
+  grid-row: 6;
+}
+
+.our_shop_img {
+  grid-column: 1;
+  grid-row: 6;
+}
+
+.study_spaces {
+  grid-column: 1;
+  grid-row: 7;
+}
+
+.study_spaces_img {
+  grid-column: 2;
+  grid-row: 7;
+}
+
+/*img properites --------------------------
+-------------------------------------------*/
+.img img {
+  padding-bottom: 0;
+}
+
+/* Text properties -------------------------
+--------------------------------------------*/
+.text {
+  border-width: 2px;
+  border-radius: 2px;
+}
