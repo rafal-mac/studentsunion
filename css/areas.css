@@ -5,7 +5,7 @@
 table {
   border-collapse: collapse;
   width: 80%;
-  margin: 2% auto auto auto;
+  margin: 2% auto 5% auto;
 }
 
 th, td {
@@ -30,7 +30,7 @@ tr:hover {
   display: grid;
   grid-template-columns: auto;
   margin: auto;
-  background-color: #99ccca;
+
 }
 
 /*img properites --------------------------
@@ -62,7 +62,7 @@ tr:hover {
       font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
 }
 
-/* Desktop properties for food.html --------*/
+/* Desktop properties for areas.html --------*/
 @media only screen and (min-width: 768px) {
 #areas_list  {
   display: grid;
@@ -143,6 +143,7 @@ tr:hover {
 -------------------------------------------*/
 .img img {
   padding-bottom: 0;
+  width: 90%;
 }
 
 /* Text properties -------------------------
