@@ -1,0 +1,91 @@
+#typical_week  {
+  display: grid;
+  grid-template-columns: auto;
+  margin: auto;
+  background-color: #99ccca;
+}
+
+/*img properites --------------------------
+-------------------------------------------*/
+.img img {
+  padding-bottom: 5%;
+  max-width: 100%;
+
+}
+/* Text properties -------------------------
+--------------------------------------------*/
+.text {
+  padding: 0 1em 0 1em;
+  border-style: solid;
+  border-width: 2px 2px 0 2px;
+  border-color: #097392;
+  border-radius: 5px 5px 0 0;
+  background-color: #cbefee;
+}
+
+.text h2 {
+  color:#097392;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.text p {
+      font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
+}
+
+/* Desktop properties for food.html --------*/
+@media only screen and (min-width: 768px) {
+#typical_week  {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-row-gap: 1em;
+  margin: auto;
+}
+
+.typical_week_part1 {
+  grid-row: 1;
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout*/
+/*link gdzie to znalazłam ale nie wiem czemu nie działa*/
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.coffee_revolution_img {
+  grid-column: 1;
+  grid-row: 2;
+
+}
+.bar_one_img {
+  grid-column: 2;
+  grid-row: 2;
+
+}
+.typical_week_part2 {
+  grid-row: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.typical_week_part3 {
+  grid-row: 4;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.typical_week_part4 {
+  grid-row: 5;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+/*img properites --------------------------
+-------------------------------------------*/
+.img img {
+  padding-bottom: 0;
+  max-width: 100%;
+}
+
+/* Text properties -------------------------
+--------------------------------------------*/
+.text {
+  border-width: 2px;
+  border-radius: 2px;
+}
