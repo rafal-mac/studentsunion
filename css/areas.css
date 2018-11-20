@@ -55,10 +55,7 @@ tr:hover {
   white-space: nowrap;
 }
 
-.text p {
-      font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
-}
-.text li {
+.text p, .text li {
       font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
 }
 
