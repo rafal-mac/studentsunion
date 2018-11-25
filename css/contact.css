@@ -1,4 +1,6 @@
 /*CSS for contact subpage ---------------------*/
+
+/* Title */
 .get-in-touch {
   text-align: center;
   font-size: 2em;
@@ -7,11 +9,14 @@
   margin: 0.7em 0 0.5em 00;
 }
 
+/* Captions for icons */
 .mail, .phone {
   text-align: center;
   font-weight: bold;
   font-family: 'Proxima Nova Soft', 'Helvetica Neue', sans-serif;
 }
+
+/* Icons */
 .mail-img, .phone-img{
   border-width: 0;
   width: 48px;
