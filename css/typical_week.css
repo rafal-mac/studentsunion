@@ -1,6 +1,6 @@
-/*CSS for Accessibility subpage ---------------------*/
+/*CSS for Typical Week subpage ---------------------*/
 
-/* Desktop properties for food.html --------*/
+/* Desktop properties for typical_week.html --------*/
 @media only screen and (min-width: 768px) {
   .row {
     display: flex;
