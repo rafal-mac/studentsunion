@@ -84,6 +84,8 @@ ul {
 }
 /* Top of the page ------------------------------
 -------------------------------------------------*/
+
+/* Logo */
 .homebutton {
   padding: 4.44% 0 4.44% 0;
   width: 100%;
@@ -101,6 +103,7 @@ ul {
   font-weight: bold;
 }
 
+/* Mobile closed-menu bar */
 #menu_bar {
   display: flex;
   flex-direction: row;
@@ -146,9 +149,9 @@ img {
      border-top: 5px solid #097392;
 }
 
-/* Burger-menu ----------------------------------
+/* Hidden navigation ----------------------------------
 -------------------------------------------------*/
-/* Navigation hidden until user clicks on "burger icon" */
+/* Navigation hidden until user clicks on menu icon */
 .menu-title {
   text-align: center;
 }

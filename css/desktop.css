@@ -17,12 +17,14 @@ height:4em;
 }
 
 /* Top of the page ----------------------*/
-/* Navigation embeded into top of the page, next to logo */
+
+/* Logo */
 .homebutton {
   padding: 0;
   height:100%
 }
 
+/* Mobile menu hidden */
 #menu_bar {
   display: none;
 }
@@ -35,19 +37,12 @@ img, figcaption {
   margin: auto;
 }
 
-/* Burger menu ------------------------ */
+/* Menu ------------------------ */
 #main_nav {
   display: block;
   position: relative;
-<<<<<<< HEAD:desktop.css
-<<<<<<< HEAD
-<<<<<<< HEAD
   height: auto;
-  background-color: powderblue ;
-=======
-  background-color: #99ccca;
->>>>>>> 12d9fbb2faaf04f9b433b9f8178293ad0e419343:css/desktop.css
-
+  background-color: powderblue;
 }
 
 .grid-menu {

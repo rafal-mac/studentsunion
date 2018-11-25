@@ -25,7 +25,8 @@ tr:hover {
   font-weight: bold;
   font-size: larger;
 }
-/* CSS for areas ----------*/
+
+/* Descriptions and pictures for areas on mobile are in one column */
 #areas_list  {
   display: grid;
   grid-template-columns: auto;
@@ -61,6 +62,9 @@ tr:hover {
 
 /* Desktop properties for areas.html --------*/
 @media only screen and (min-width: 768px) {
+
+/* Descriptions and pictures for areas on desktop
+   are divided into two columns */
 #areas_list  {
   display: grid;
   grid-template-columns: 50% 50% ;
