@@ -1,5 +1,5 @@
 normalize: http://nicolasgallagher.com/about-normalize-css/
-burger menu: http://htmldog.com/techniques/showhide/
+mobile menu: http://htmldog.com/techniques/showhide/
 contact form: https://www.w3schools.com/howto/howto_css_contact_form.asp
 breakpoints: https://responsivedesign.is/strategy/page-layout/defining-breakpoints/
 grid: https://gridbyexample.com/examples/example13/

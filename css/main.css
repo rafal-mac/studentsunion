@@ -172,6 +172,7 @@ nav ul button {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   grid-template-columns: auto auto auto;
+  margin: auto 5% auto auto;
 }
 .grid-menu-item {
   padding: 1em 0.5em;
